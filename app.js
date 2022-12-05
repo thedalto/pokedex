@@ -30,3 +30,4 @@ const pokemonPromises = generatePokemonPromises ()
 Promise.all(pokemonPromises)
     .then(generateHTML)
     .then(insertPokemonsIntoPage)
+
